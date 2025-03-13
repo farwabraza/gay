@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Redirect to yes.html when clicking 'Yes' button
     function nextPage() {
-        let button = document.getElementById("noButton");
+        let button = document.getElementById("yesButton");
         console.log("Redirecting to yes.html..."); // Debugging message
         window.location.href = "yes.html"; // Ensure yes.html exists
     }
