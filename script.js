@@ -11,7 +11,7 @@ function moveButton() {
 
 // Function to navigate to the next page when "Yes" button is clicked
 function nextPage() {
-    window.location.href = "nextpage.html"; // Change to your actual next page URL
+    window.location.href = "yes.html"; // Change to your actual next page URL
 }
 
 // Attach event listeners after the page loads
